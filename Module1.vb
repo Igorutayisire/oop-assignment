@@ -22,34 +22,6 @@
             javalist.Add(javamark)
             clist.Add(cmark)
         Loop While names <> "break"
-
-        'Dim avg, oopavg, javaavg, cavg, total As Decimal
-        'Dim size As Integer
-        'size = stlist.Count - 1
-        'For i As Integer = 0 To size
-        '    total = ooplist(i) + javalist(i) + clist(i)
-        '    avg = total / 3
-        '    Console.WriteLine("Names    oop   java    C    Average")
-        '    Console.WriteLine(stlist(i) & " " & ooplist(i) & " " & javalist(i) & " " & clist(i) & " " & avg)
-        'Next
-        'Dim ooptotal, javatotal, ctotal As Decimal
-        'For i As Integer = 0 To size
-        '    ooptotal = (ooptotal + ooplist(i))
-        '    oopavg = ooptotal / ooplist.Count
-        '    javatotal = javatotal + javalist(i)
-        '    javaavg = javatotal / javalist.Count
-        '    ctotal = ctotal + clist(i)
-        '    cavg = ctotal / clist.Count
-
-
-
-
-        'Next
-        'Console.WriteLine("                                  ")
-
-        'Console.WriteLine("      " & oopavg & " " & javaavg & " " & cavg)
-
-        'Console.ReadLine()
     End Sub
     Sub display()
         Dim avg, oopavg, javaavg, cavg, total As Decimal
@@ -75,7 +47,6 @@
         Console.WriteLine("Averages " & oopavg & "    " & javaavg & "      " & cavg)
         Console.ReadLine()
     End Sub
-
     Sub Main()
         Call initial()
         Call display()
